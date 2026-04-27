@@ -13,12 +13,14 @@
 ## Get the package Zip File
   
 ### Install Git
-Ubuntu
-```sudo apt update
-sudo apt install git```
+```
+## Ubuntu
+sudo apt update
+sudo apt install git
   
-RHEL
-```sudo yum install git```
+## RHEL
+sudo yum install git
+```
   
 git clone https://github.com/anthonygrees/acc
   
@@ -28,19 +30,24 @@ git clone https://github.com/anthonygrees/acc
 sudo yum install unzip
   
 ## Ubuntu  
-sudo apt install unzip```
+sudo apt install unzip
+```
   
-```unzip airia-connector-linux-x64.zip```
+`unzip airia-connector-linux-x64.zip`
   
 ## ICU Package Error
-```Couldn't find a valid ICU package installed on the system. Please install libicu (or icu-libs) using your package manager and try again. Alternatively you can set the configuration flag System.Globalization.Invariant to true if you want to run with no globalization support. Please see https://aka.ms/dotnet-missing-libicu for more information.```
+```
+Couldn't find a valid ICU package installed on the system. Please install libicu (or icu-libs) using your package manager and try again. Alternatively you can set the configuration flag System.Globalization.Invariant to true if you want to run with no globalization support. Please see https://aka.ms/dotnet-missing-libicu for more information.
+```
   
 ```
 ## Ubuntu
 sudo apt-get update
-sudo apt-get install libicu-dev[9:37 AM]RHEL
+sudo apt-get install libicu-dev
+
+## RHEL
 sudo yum install libicu
   
-## RHEL
+## Fedora
 sudo dnf install libicu
 ```
